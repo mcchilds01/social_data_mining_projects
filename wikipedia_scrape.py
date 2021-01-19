@@ -2,9 +2,8 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
-headers = {'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36\
- (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
- 'from': 'mchilds3@vols.utk.edu'}
+headers = {'user-agent' : <USER-AGENT>,
+ 'from': <FROM INFO>}
 
 rows = []
 
