@@ -41,3 +41,5 @@ with open('women_computer_scientists.csv', 'w') as f:
     writer.writeheader()
     for row in rows:
         writer.writerow(row)
+     
+"""Based on an exercise in Lam Thuy Vo's "Mining Social Media", No Starch Press, 2020"""
